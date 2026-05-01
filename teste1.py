@@ -53,15 +53,6 @@ if escolha:
     st.write(f"**Clima:** {setores[escolha]['clima']}")
     st.write(setores[escolha]['descricao'])
     st.write(f"👉 **Ideal para:** {setores[escolha]['perfil']}")
-    
-    # Espaço para Mídia (Imagens ou Vídeos)
-    col1, col2 = st.columns(2)
-    with col1:
-        st.warning("📸 [Lugar para foto da vista do setor]")
-        # st.image("caminho/para/foto_setor.jpg")
-    with col2:
-        st.warning("🎥 [Lugar para vídeo do clima]")
-        # st.video("link_do_youtube_ou_arquivo")
 
 st.divider()
 
