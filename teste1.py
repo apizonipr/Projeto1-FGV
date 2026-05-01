@@ -1,9 +1,75 @@
 import streamlit as st
 
-st.title("A ligação das Divas Pop com o Botafogo de Futebol e Regatas")
-st.write("O Estádio Nilton Santos, conhecido como Engenhão, foi inaugurado em 2007 com foco principal no futebol e em eventos esportivos, especialmente para os Jogos Pan-Americanos de 2007. No entanto, ao longo dos anos, passou por um processo gradual de diversificação de uso. A virada para palco de grandes shows aconteceu por alguns motivos principais. Primeiro, a estrutura moderna e a boa capacidade de público chamaram a atenção de produtores de eventos. Depois, a cidade do Rio de Janeiro carecia de espaços grandes e versáteis para mega shows, especialmente após limitações de outros estádios. A partir da década de 2010, com melhorias operacionais e maior abertura da gestão do estádio para eventos não esportivos, o Engenhão começou a receber grandes turnês nacionais e internacionais. Isso se intensificou após períodos em que o estádio ficou menos utilizado para o futebol, o que incentivou sua exploração comercial. Hoje, o Engenhão se consolidou como um espaço multiuso, sendo tanto casa do Botafogo de Futebol e Regatas quanto um dos principais palcos de shows de grande porte na cidade.")
-st.image("https://www.botafogohoje.com.br/_next/image?url=https%3A%2F%2Fsite.botafogohoje.com.br%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1200x630%2Fpublic%2F2024-07%2Fconfira-agenda-de-eventos-e-jogos-no-estadio-nilton-santos-para-2024.jpg.webp%3Fitok%3DdBiOi3wn&w=828&q=75")
+# Configurações iniciais da página
+st.set_page_config(page_title="Manual do Novo Alvinegro", page_icon="⭐")
 
-st.title("Qual a verdadeira semelhança entre a Taylor Swift e Tiquinho Soares?")
-st.image("https://s2-ge.glbimg.com/H73NbNi6l-NpKMzcIbrxjoHir70=/0x0:1924x815/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/B/k/S6IKi0QqODLekCyJi6Ew/sem-titulo.png")
-st.write("À primeira vista, Taylor Swift e Tiquinho Soares parecem não ter nada em comum — uma é uma das maiores estrelas da música pop mundial, e o outro é um centroavante de futebol. Mas dá pra traçar algumas semelhanças interessantes: Ambos são protagonistas absolutos nos seus campos. Taylor domina a indústria musical com turnês gigantes e forte conexão com o público, enquanto Tiquinho foi peça central em momentos decisivos do Botafogo de Futebol e Regatas, sendo referência técnica e emocional dentro do time. Outra semelhança está na relação com os fãs. Taylor é conhecida por criar uma base extremamente fiel, os “Swifties”, e Tiquinho conquistou rapidamente a torcida do Botafogo com gols e carisma, virando ídolo em pouco tempo. Em ambos os casos, existe uma identificação forte com o público. Também dá pra comparar a consistência: Taylor Swift se reinventa a cada álbum sem perder relevância, e Tiquinho, ao longo da carreira, mostrou capacidade de adaptação em diferentes ligas e contextos, mantendo desempenho sólido. Por fim, os dois têm impacto direto nos “resultados”: um show da Taylor movimenta milhões e marca gerações, enquanto um gol do Tiquinho muitas vezes decide jogos — ou até campeonatos. Ou seja, apesar de áreas completamente diferentes, ambos representam excelência, liderança e forte conexão com quem acompanha seu trabalho.")
+# Título e Introdução
+st.title("⚽ Guia de Setores: Estádio Nilton Santos")
+st.markdown("""Bem-vindo ao Glorioso! Este guia vai te ajudar a escolher o lugar perfeito 
+    para assistir ao jogo do Fogão de acordo com o seu perfil.""")
+
+# --- SEÇÃO 1: O ESTÁDIO ---
+st.header("1. O Palco: Nilton Santos (Niltão)")
+st.info("Localizado no Engenho de Dentro, o estádio é a nossa casa. Possui tecnologia de gramado sintético de última geração.")
+
+# Espaço para uma imagem geral do estádio
+# st.image("https://fogonarede.com.br/wp-content/uploads/2024/05/show-numanice-estadio-nilton-santos-botafogo.jpg", caption="O Templo Alvinegro")
+
+st.divider()
+
+# --- SEÇÃO 2: IDENTIFICADOR DE PERFIL ---
+st.header("2. Qual é o seu estilo de torcer?")
+
+# Dicionário com as informações dos setores
+setores = {
+    "Leste Inferior": {
+        "clima": "🔥 O Coração Pulsante",
+        "descricao": "Onde a festa acontece. Setor mais próximo do campo, com bandeirões e cantoria ininterrupta.",
+        "perfil": "Torcedor que quer cantar os 90 minutos e não se importa de ficar em pé.",
+        "video_placeholder": "Insira aqui o link de um vlog ou vídeo da bateria."
+    },
+    "Leste Superior": {
+        "clima": "📸 Visão Panorâmica e Festa",
+        "descricao": "Excelente custo-benefício. Você vê o jogo de cima (tática perfeita) e a torcida também é muito engajada.",
+        "perfil": "Torcedor que gosta de ver o desenho do time em campo e participar da festa.",
+        "video_placeholder": "Insira aqui um vídeo da vista superior."
+    },
+    "Oeste Inferior/Superior": {
+        "clima": "☕ Conforto e Família",
+        "descricao": "Setores mais tranquilos, com cadeiras estofadas (na Inferior) e acesso mais rápido. Geralmente onde ficam as cabines de imprensa.",
+        "perfil": "Famílias com crianças, idosos ou quem prefere assistir ao jogo sentado com mais calma.",
+        "video_placeholder": "Insira aqui um vídeo da entrada da Oeste."
+    },
+    "Norte": {
+        "clima": "🥁 O Setor Popular",
+        "descricao": "O setor atrás do gol. É o local das organizadas e de ingressos mais acessíveis.",
+        "perfil": "Torcedor raiz que quer o clima das organizadas e energia máxima.",
+        "video_placeholder": "Insira aqui um vídeo da entrada da Norte."
+    }
+}
+
+# Selectbox para o usuário escolher
+escolha = st.selectbox("Escolha um setor para conhecer os detalhes:", list(setores.keys()))
+
+# Exibição dos detalhes com base na escolha
+if escolha:
+    st.subheader(f"Setor {escolha}")
+    st.write(f"**Clima:** {setores[escolha]['clima']}")
+    st.write(setores[escolha]['descricao'])
+    st.write(f"👉 **Ideal para:** {setores[escolha]['perfil']}")
+    
+    # Espaço para Mídia (Imagens ou Vídeos)
+    col1, col2 = st.columns(2)
+    with col1:
+        st.warning("📸 [Lugar para foto da vista do setor]")
+        # st.image("caminho/para/foto_setor.jpg")
+    with col2:
+        st.warning("🎥 [Lugar para vídeo do clima]")
+        # st.video("link_do_youtube_ou_arquivo")
+
+st.divider()
+
+# --- SEÇÃO 3: CONCLUSÃO ---
+if st.button("Finalizar Guia: Onde encontro ingressos?"):
+    st.success("Acesse o site oficial: **botafogo.com.br/ingressos**")
+    st.balloons()
