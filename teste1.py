@@ -5,7 +5,7 @@ st.set_page_config(page_title="Manual do Novo Alvinegro", page_icon="⭐")
 
 # Título e Introdução
 st.title("⚽ Guia de Setores: Estádio Nilton Santos")
-st.markdown("""Bem-vindo ao Glorioso! Este guia vai te ajudar a escolher o lugar perfeito 
+st.markdown("""Bem-vindo ao Manual Glorioso! Este guia vai te ajudar a escolher o lugar perfeito 
     para assistir ao jogo do Fogão de acordo com o seu perfil.""")
 
 # --- SEÇÃO 1: O ESTÁDIO ---
