@@ -71,5 +71,5 @@ st.divider()
 
 # --- SEÇÃO 3: CONCLUSÃO ---
 if st.button("Finalizar Guia: Onde encontro ingressos?"):
-    st.success("Acesse o site oficial: **botafogo.com.br/ingressos**")
+    st.success("Acesse o site oficial: **https://www.ingresse.com/**")
     st.balloons()
