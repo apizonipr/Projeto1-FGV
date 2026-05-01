@@ -26,25 +26,21 @@ setores = {
         "clima": "🔥 O Coração Pulsante",
         "descricao": "Onde a festa acontece. Setor mais próximo do campo, com bandeirões e cantoria ininterrupta.",
         "perfil": "Torcedor que quer cantar os 90 minutos e não se importa de ficar em pé.",
-        "video_placeholder": "Insira aqui o link de um vlog ou vídeo da bateria."
     },
     "Leste Superior": {
         "clima": "📸 Visão Panorâmica e Festa",
         "descricao": "Excelente custo-benefício. Você vê o jogo de cima (tática perfeita) e a torcida também é muito engajada.",
         "perfil": "Torcedor que gosta de ver o desenho do time em campo e participar da festa.",
-        "video_placeholder": "Insira aqui um vídeo da vista superior."
     },
     "Oeste Inferior/Superior": {
-        "clima": "☕ Conforto e Família",
-        "descricao": "Setores mais tranquilos, com cadeiras estofadas (na Inferior) e acesso mais rápido. Geralmente onde ficam as cabines de imprensa.",
+        "clima": "Conforto e Família",
+        "descricao": "Setores mais tranquilos e acesso mais rápido. Geralmente onde ficam as cabines de imprensa e a área kids.",
         "perfil": "Famílias com crianças, idosos ou quem prefere assistir ao jogo sentado com mais calma.",
-        "video_placeholder": "Insira aqui um vídeo da entrada da Oeste."
     },
     "Norte": {
         "clima": "🥁 O Setor Popular",
         "descricao": "O setor atrás do gol. É o local das organizadas e de ingressos mais acessíveis.",
-        "perfil": "Torcedor raiz que quer o clima das organizadas e energia máxima.",
-        "video_placeholder": "Insira aqui um vídeo da entrada da Norte."
+        "perfil": "Torcedor raiz que quer o clima das organizadas e energia máxima."
     }
 }
 
