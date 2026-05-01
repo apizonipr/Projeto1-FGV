@@ -10,10 +10,10 @@ st.markdown("""Bem-vindo ao Glorioso! Este guia vai te ajudar a escolher o lugar
 
 # --- SEÇÃO 1: O ESTÁDIO ---
 st.header("1. O Palco: Nilton Santos (Niltão)")
-st.info("Localizado no Engenho de Dentro, o estádio é a nossa casa. Possui tecnologia de gramado sintético de última geração.")
+st.info("O Estádio Nilton Santos, carinhosamente conhecido como Niltão, é um dos complexos esportivos mais modernos e icônicos do Brasil. Localizado no Rio de Janeiro, destaca-se por sua arquitetura imponente com arcos monumentais e uma atmosfera vibrante que acolhe grandes eventos esportivos e shows internacionais. É um verdadeiro templo de paixão e superação, sendo um orgulho para a cidade e um ponto de encontro essencial para os amantes do esporte.")
 
 # Espaço para uma imagem geral do estádio
-# st.image("https://fogonarede.com.br/wp-content/uploads/2024/05/show-numanice-estadio-nilton-santos-botafogo.jpg", caption="O Templo Alvinegro")
+st.image("https://fogonarede.com.br/wp-content/uploads/2024/05/show-numanice-estadio-nilton-santos-botafogo.jpg", caption="O Templo Alvinegro")
 
 st.divider()
 
