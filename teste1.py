@@ -19,7 +19,7 @@ setores = {
     "Leste Inferior": {
         "clima": "🔥 O Coração Pulsante",
         "descricao": "É o setor onde a torcida costuma ficar mais tempo em pé e cantando. Embora não seja o setor oficial das organizadas (que ficam na Norte), a Leste Inferior puxa muitas músicas e é onde o "pulso" do estádio bate mais forte.",
-        "perfil": "É um público misto, mas predominantemente jovem e de média idade que quer uma experiência imersiva. Não é tão "confortável" quanto a Oeste (onde o pessoal assiste mais sentado), nem tão "raiz" quanto a Norte ou Leste Superior. É o equilíbrio perfeito para quem quer sentir a pressão da torcida.",
+        "perfil": "É um público misto, mas predominantemente jovem e de média idade que quer uma experiência imersiva. Não é tão confortável quanto a Oeste (onde o pessoal assiste mais sentado), nem tão "raiz" quanto a Norte ou Leste Superior. É o equilíbrio perfeito para quem quer sentir a pressão da torcida.",
     },
     "Leste Superior": {
         "clima": "📸 Visão Panorâmica e Festa",
