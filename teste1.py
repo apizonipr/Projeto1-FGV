@@ -24,12 +24,12 @@ setores = {
     "Leste Superior": {
         "clima": "📸 Visão Panorâmica e Festa",
         "descricao": "Visão panorâmica total (estilo câmera tática de videogame). Por ser um setor muito amplo e alto, o som da torcida ecoa na cobertura, criando uma acústica poderosa. O clima é de engajamento coletivo, onde milhares de vozes se unem, mas com a vantagem de ter uma visão clara de todo o esquema tático do time.",
-        "perfil": "O Analista de Bancada. Aquele que quer economizar no ingresso sem perder a festa, prefere uma visão privilegiada de todas as áreas do campo e gosta de fugir da chuva (por ser totalmente coberto).",
+        "perfil": "Para quem quer economizar no ingresso sem perder a festa, prefere uma visão privilegiada de todas as áreas do campo e gosta de fugir da chuva (por ser totalmente coberto).",
     },
     "Oeste Inferior/Superior": {
         "clima": "Conforto e Família",
         "descricao": "É a visão centralizada e mais nobre do estádio. Na Inferior, você está logo atrás dos bancos de reservas; na Superior, tem a visão da área de imprensa. O clima é de contemplação e conforto. É o setor mais silencioso, onde o foco é o jogo em si, com menos pessoas em pé ou bandeirões atrapalhando a vista.",
-        "perfil": "O Tradicional/Família. Ideal para quem vai com crianças pequenas, idosos ou quer uma experiência mais premium. É perfeito para quem prefere assistir ao jogo sentado e valoriza facilidade de acesso e menos aglomeração nas filas.",
+        "perfil": "Ideal para quem vai com crianças pequenas, idosos ou quer uma experiência mais premium. É perfeito para quem prefere assistir ao jogo sentado e valoriza facilidade de acesso e menos aglomeração nas filas.",
     },
     "Norte": {
         "clima": "🥁 O Setor Popular",
