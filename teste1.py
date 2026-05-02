@@ -1,26 +1,21 @@
 import streamlit as st
 
-# Configurações iniciais da página
+
 st.set_page_config(page_title="Manual do Novo Alvinegro", page_icon="⭐")
 
-# Título e Introdução
 st.title("⚽ Guia de Setores: Estádio Nilton Santos")
 st.markdown("""Bem-vindo ao Manual Glorioso! Este guia vai te ajudar a escolher o lugar perfeito 
     para assistir ao jogo do Fogão de acordo com o seu perfil.""")
 
-# --- SEÇÃO 1: O ESTÁDIO ---
 st.header("1. O Palco: Nilton Santos (Niltão)")
 st.info("O Estádio Nilton Santos, carinhosamente conhecido como Niltão, é um dos complexos esportivos mais modernos e icônicos do Brasil. Localizado no Rio de Janeiro, destaca-se por sua arquitetura imponente com arcos monumentais e uma atmosfera vibrante que acolhe grandes eventos esportivos e shows internacionais. É um verdadeiro templo de paixão e superação, sendo um orgulho para a cidade e um ponto de encontro essencial para os amantes do esporte.")
 
-# Espaço para uma imagem geral do estádio
 st.image("https://fogonarede.com.br/wp-content/uploads/2024/05/show-numanice-estadio-nilton-santos-botafogo.jpg", caption="O Templo Alvinegro")
 
 st.divider()
 
-# --- SEÇÃO 2: IDENTIFICADOR DE PERFIL ---
 st.header("2. Qual é o seu estilo de torcer?")
 
-# Dicionário com as informações dos setores
 setores = {
     "Leste Inferior": {
         "clima": "🔥 O Coração Pulsante",
@@ -43,11 +38,9 @@ setores = {
         "perfil": "Torcedor raiz que quer o clima das organizadas e energia máxima."
     }
 }
-
-# Selectbox para o usuário escolher
 escolha = st.selectbox("Escolha um setor para conhecer os detalhes:", list(setores.keys()))
 
-# Exibição dos detalhes com base na escolha
+
 if escolha:
     st.subheader(f"Setor {escolha}")
     st.write(f"**Clima:** {setores[escolha]['clima']}")
@@ -56,7 +49,6 @@ if escolha:
 
 st.divider()
 
-# --- SEÇÃO 3: CONCLUSÃO ---
 if st.button("Finalizar Guia: Onde encontro ingressos?"):
     st.success("Acesse o site oficial: **https://www.ingresse.com/**")
    
